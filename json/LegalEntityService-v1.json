@@ -1,5 +1,5 @@
 {
-   "openapi" : "3.1.0",
+   "openapi" : "3.0.3",
    "servers" : [
       {
          "url" : "https://kyc-test.adyen.com/lem/v1"

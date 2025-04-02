@@ -1,5 +1,5 @@
 {
-  "openapi" : "3.1.0",
+  "openapi" : "3.0.3",
   "info" : {
     "title" : "Balance webhook",
     "description" : "Adyen sends webhooks to inform you of balance changes in your balance platform.\n\nYou can use the [Configuration API](https://docs.adyen.com/api-explorer/balanceplatform/latest/post/balancePlatforms/(id)/webhooks/(id)/settings) to set the conditions that a balance change must meet for Adyen to send a balance webhook:\n\n- In your entire balance platform\n- In the balance accounts of specific account holders\n- In a specific balance account",

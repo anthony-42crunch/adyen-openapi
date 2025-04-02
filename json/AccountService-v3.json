@@ -1,5 +1,5 @@
 {
-   "openapi" : "3.1.0",
+   "openapi" : "3.0.3",
    "servers" : [
       {
          "url" : "https://cal-test.adyen.com/cal/services/Account/v3"
