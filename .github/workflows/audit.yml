@@ -36,7 +36,7 @@ jobs:
           sarif-report: 42Crunch_AuditReport_${{ github.run_id }}.SARIF
       - name: save-audit-report
         if: always()        
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: auditaction-report-${{ github.run_id }}
           path: audit-action-report-${{ github.run_id }}.json
