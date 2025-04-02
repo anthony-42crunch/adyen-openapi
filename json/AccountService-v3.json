@@ -2503,7 +2503,8 @@
             "properties" : {
                "pspReference" : {
                   "description" : "The reference of a request. Can be used to uniquely identify the request.",
-                  "type" : "string"
+                  "type" : "string",
+                  "maxLength": 100
                },
                "resultCode" : {
                   "description" : "The result code.",
