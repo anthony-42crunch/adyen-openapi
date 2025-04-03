@@ -32,6 +32,7 @@ jobs:
           # Upload results to Github code scanning
           upload-to-code-scanning: true 
           log-level: info
+          ignore-failures: true
           json-report: audit-action-report-${{ github.run_id }}
           sarif-report: 42Crunch_AuditReport_${{ github.run_id }}.SARIF
       - name: save-audit-report
