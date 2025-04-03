@@ -1,5 +1,5 @@
 audit:
   branches:
-    master:
+    main:
       api_tags:
         - 'API_Governance:Documentation_Quality'
