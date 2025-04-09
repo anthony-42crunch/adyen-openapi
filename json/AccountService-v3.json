@@ -2073,7 +2073,7 @@
             "type" : "object"
          },
          "AccountEvent" : {
-            "additionalProperties" : false,
+            "additionalProperties" : true,
             "properties" : {
                "event" : {
                   "description" : "The event.\n>Permitted values: `InactivateAccount`, `RefundNotPaidOutTransfers`.\nFor more information, refer to [Verification checks](https://docs.adyen.com/classic-platforms/verification-process).",
